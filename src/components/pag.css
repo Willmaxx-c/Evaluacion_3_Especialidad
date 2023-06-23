@@ -1,0 +1,28 @@
+.card-container {
+  gap: 20px;
+}
+
+.completed {
+  background-color: rgb(34, 238, 34);
+}
+
+.card-remove-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 1;
+}
+
+.card.important {
+  background-color: #edf03d;
+}
+
+.card-container .selected {
+  background-color:  red;
+}
+
+
+.card {
+  background-color: aqua; 
+  border: 2px solid black;
+}
